@@ -1,3 +1,25 @@
+This version adds a Python script that allows the use of .gcode files generated with the BFB printer profile in Ultimaker Cura
+
+The script was written in collaberation with @JJak
+
+It would probably make sense at some point to rewrite the script in C and integrate it more deeply with Cube_Converter but it works as is which means I probably won't do that anytime soon
+
+To use simply download the Python script and Cube_Converter, place them both in the same directory. 
+Open the Python script (requires Python3) and drag the gcode file produced by into the script. 
+No manually gcode editing required. 
+The script will heat the build chamber to 40 degrees. This can be edited in the script. 
+The script will set the hotend to 200 degrees but changing the hotend temp doesn't seem to do anything... so it doesn't really matter. 
+
+
+MY CURA SETTINGS: 
+
+Choose BFB Printer 
+Change nozzle diameter to .35
+Change flowrate to 103% 
+
+
+
+
 # A faster open-source alternative to CodeX
 
 The [original CodeX tool](https://groups.google.com/forum/#!topic/kisslicer-refugee-camp/ZMuIrtn5Mfo)
