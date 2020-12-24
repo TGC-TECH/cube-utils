@@ -14,7 +14,9 @@ The script will set the hotend to 200 degrees but changing the hotend temp doesn
 MY CURA SETTINGS: 
 
 Choose BFB Printer 
+
 Change nozzle diameter to .35
+
 Change flowrate to 103% 
 
 
